@@ -121,8 +121,6 @@ namespace lr4._2
                 if (n == 7)
                     break;
             }
-
-
         }
     }
 }
