@@ -21,6 +21,56 @@ namespace lr4._2
             }
 
 
+            Console.WriteLine("Hello Student!");
+
+            int n;
+
+            void Menu()
+            {
+                Console.WriteLine("Меню: \n1) Ввести A \n2) Ввести B \n3) Сложить A и B " +
+                "\n4) Вычесть B из A \n5) Умножить A на B \n6) Разделить A на B \n7) Куда я попал? Я хочу выйти отсюда.");
+            }
+
+            while (true)
+            {
+                Menu();
+                n = Convert.ToInt32(Console.ReadLine());
+
+                if (n == 1)
+                {
+
+                }
+
+                if (n == 2)
+                {
+
+                }
+
+                if (n == 3)
+                {
+
+                }
+
+                if (n == 4)
+                {
+
+                }
+
+                if (n == 5)
+                {
+
+                }
+
+                if (n == 6)
+                {
+
+                }
+
+                if (n == 7)
+                    break;
+            }
+
+
         }
     }
 }
