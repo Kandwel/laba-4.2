@@ -9,6 +9,7 @@ namespace lr4._2
             Console.WriteLine("Hello Student!");
 
             double a, b, c;
+            bool flag1 = false, flag2 = false;
 
             void A()
             {
@@ -55,11 +56,19 @@ namespace lr4._2
 
                 if (n == 1)
                 {
+                    Console.Write("Введите число A: ");
+                    A();
+                    Console.WriteLine("Число A = {0} \n", a);
+                    flag1 = true;
 
                 }
 
                 if (n == 2)
                 {
+                    Console.Write("\nВведите число B: ");
+                    B();
+                    Console.WriteLine("Число B = {0} \n", b);
+                    flag2 = true;
 
                 }
 
