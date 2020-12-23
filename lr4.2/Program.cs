@@ -21,26 +21,6 @@ namespace lr4._2
                 b = Convert.ToDouble(Console.ReadLine());
             }
 
-            A();
-            B();
-            c = a / b;
-            Console.WriteLine("\n{0} / {1} = {2}\n", a, b, c);
-            A();
-            B();
-            c = a * b;
-            Console.WriteLine("\n{0} * {1} = {2}\n", a, b, c);
-            A();
-            B();
-            c = a - b;
-            Console.WriteLine("\n{0} - {1} = {2}\n", a, b, c);
-            A();
-            B();
-            c = a + b;
-            Console.WriteLine("\n{0} + {1} = {2}\n", a, b, c);
-
-
-            Console.WriteLine("Hello Student!");
-
             int n;
 
             void Menu()
@@ -60,7 +40,6 @@ namespace lr4._2
                     A();
                     Console.WriteLine("Число A = {0} \n", a);
                     flag1 = true;
-
                 }
 
                 if (n == 2)
@@ -69,27 +48,74 @@ namespace lr4._2
                     B();
                     Console.WriteLine("Число B = {0} \n", b);
                     flag2 = true;
-
                 }
 
                 if (n == 3)
                 {
-
+                    if (flag1 == true && flag2 == true)
+                    {
+                        A();
+                        B();
+                        c = a + b;
+                        Console.WriteLine("\n{0} + {1} = {2}\n", a, b, c);
+                    }
+                    else if (flag1 == true)
+                        Console.WriteLine("Введите число B!\n");
+                    else if (flag2 == true)
+                        Console.WriteLine("Введите число A!\n");
+                    else
+                        Console.WriteLine("Введите числа!\n");
                 }
 
                 if (n == 4)
                 {
-
+                    if (flag1 == true && flag2 == true)
+                    {
+                        A();
+                        B();
+                        c = a - b;
+                        Console.WriteLine("\n{0} - {1} = {2}\n", a, b, c);
+                    }
+                    else if (flag1 == true)
+                        Console.WriteLine("Введите число B!\n");
+                    else if (flag2 == true)
+                        Console.WriteLine("Введите число A!\n");
+                    else
+                        Console.WriteLine("Введите числа!\n");
                 }
 
                 if (n == 5)
                 {
-
+                    if (flag1 == true && flag2 == true)
+                    {
+                        A();
+                        B();
+                        c = a * b;
+                        Console.WriteLine("\n{0} * {1} = {2}\n", a, b, c);
+                    }
+                    else if (flag1 == true)
+                        Console.WriteLine("Введите число B!\n");
+                    else if (flag2 == true)
+                        Console.WriteLine("Введите число A!\n");
+                    else
+                        Console.WriteLine("Введите числа!\n");
                 }
 
                 if (n == 6)
                 {
-
+                    if (flag1 == true && flag2 == true)
+                    {
+                        A();
+                        B();
+                        c = a / b;
+                        Console.WriteLine("\n{0} / {1} = {2}\n", a, b, c);
+                    }
+                    else if (flag1 == true)
+                        Console.WriteLine("Введите число B!\n");
+                    else if (flag2 == true)
+                        Console.WriteLine("Введите число A!\n");
+                    else
+                        Console.WriteLine("Введите числа!\n");
                 }
 
                 if (n == 7)
