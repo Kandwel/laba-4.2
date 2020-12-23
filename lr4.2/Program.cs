@@ -6,7 +6,21 @@ namespace lr4._2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Student!");
+
+            double a, b;
+
+            void A()
+            {
+                a = Convert.ToDouble(Console.ReadLine());
+            }
+
+            void B()
+            {
+                b = Convert.ToDouble(Console.ReadLine());
+            }
+
+
         }
     }
 }
