@@ -22,6 +22,10 @@ namespace lr4._2
 
             A();
             B();
+            c = a - b;
+            Console.WriteLine("\n{0} - {1} = {2}\n", a, b, c);
+            A();
+            B();
             c = a + b;
             Console.WriteLine("\n{0} + {1} = {2}\n", a, b, c);
 
