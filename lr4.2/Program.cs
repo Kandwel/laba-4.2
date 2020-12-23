@@ -8,7 +8,7 @@ namespace lr4._2
         {
             Console.WriteLine("Hello Student!");
 
-            double a, b;
+            double a, b, c;
 
             void A()
             {
@@ -19,6 +19,11 @@ namespace lr4._2
             {
                 b = Convert.ToDouble(Console.ReadLine());
             }
+
+            A();
+            B();
+            c = a + b;
+            Console.WriteLine("\n{0} + {1} = {2}\n", a, b, c);
 
 
         }
